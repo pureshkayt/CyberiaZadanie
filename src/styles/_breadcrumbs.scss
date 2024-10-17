@@ -1,0 +1,46 @@
+.breadcrumbs {
+  margin-top: 4.5% !important;
+  font-family: Fira Sans Condensed !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 21.6px !important;
+  @media (max-width: 768px) {
+    margin-top: 115px !important;
+    font-family: Rubik !important;
+    font-size: 12px !important;
+    font-weight: 300 !important;
+  }
+  .css-rizt0-MuiTypography-root {
+    font-family: Fira Sans Condensed !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 21.6px !important;
+    @media (max-width: 768px) {
+      font-family: Rubik !important;
+      font-size: 12px !important;
+      font-weight: 300 !important;
+    }
+  }
+  a {
+    color: rgba(154, 168, 186, 1) !important;
+    text-decoration: none !important;
+    &:hover {
+      color: rgba(120, 140, 160, 1) !important;
+    }
+
+  }
+  .css-jhr02i-MuiBreadcrumbs-separator {
+    color: rgba(154, 168, 186, 1) !important;
+    @media (max-width: 768px) {
+      margin-left: 3px;
+      margin-right: 3px;
+    }
+  }
+  .css-1uwp4ue-MuiBreadcrumbs-ol {
+    color: rgba(196, 210, 227, 1) !important;
+    @media (max-width: 768px) {
+      color: rgba(97, 101, 128, 1) !important;
+    }
+  }
+}
+

@@ -1,0 +1,135 @@
+.footer {
+  background: rgba(49, 51, 65, 1);
+  color: #ccc;
+  height: 396px;
+  align-content: center;
+  margin-top: 5.2%;
+  @media (max-width: 768px) {
+    background: rgba(43, 45, 58, 1) fixed;
+    padding: 20px 0;
+    margin: 0;
+    height: 100%;
+  }
+  .footer-row {
+    margin-left: 0;
+    @media (max-width: 768px) {
+      padding: 0 8.5% 5px;
+      margin-right: 0;
+
+      .me-4 {
+        margin-right: 0 !important;
+      }
+    }
+
+  }
+  .container-md {
+    margin-left: 17.3%;
+    margin-right: 17.85%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 80%;
+    @media (max-width: 768px) {
+      margin-left: auto !important;
+      margin-right: auto !important;
+      padding-left: unset !important;
+      padding-right: unset !important;
+      width: auto;
+    }
+  }
+  .footer-logo {
+    margin-right: 30px;
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 21.6px;
+      margin-top: 30px;
+    }
+    svg {
+      padding: 0;
+    }
+    @media (max-width: 1100px) {
+      padding: 0;
+      margin: 0;
+      p {
+        font-size: 15px;
+        font-weight: 400;
+        padding: 0;
+        margin: 0;
+      }
+      svg {
+        width: 150px;
+        margin-top: -6px;
+      }
+    }
+    @media (max-width: 768px) {
+      margin: 0 0 38px;
+      text-align: center;
+      p {
+        font-family: Open Sans;
+        font-size: 13px;
+        font-weight: 400;
+        margin: 0;
+      }
+      svg {
+        width: 102px;
+      }
+    }
+  }
+  .contact-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    li {
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      @media (max-width: 1100px) {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 17.7px;
+        margin-bottom: 25px;
+      }
+      @media (max-width: 768px) {
+        font-family: Open Sans;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 17.7px;
+        margin-bottom: 25px;
+      }
+    }
+  }
+
+  .footer-links {
+    .nav-link {
+      font-size: 18px;
+      font-weight: 400;
+      text-align: left;
+      color: #ccc;
+      margin-bottom: 20px;
+      margin-left: -5%;
+      padding: 0;
+
+      &:hover {
+        color: #fff;
+        cursor: pointer;
+      }
+
+      @media (max-width: 1400px) {
+        margin-left: 5%;
+      }
+      @media (max-width: 1100px) {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 17.7px;
+        margin-bottom: 25px;
+      }
+      @media (max-width: 768px) {
+        font-family: Open Sans;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 17.7px;
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
